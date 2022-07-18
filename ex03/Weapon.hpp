@@ -2,15 +2,14 @@
 # define WEAPON_H
 
 #include <iostream>
-using namespace std;
 
 class Weapon
 {
 	private:
-	string type_;
+	std::string type_;
 	public:
-	string getType(void)const;
-	void  setType(string newType);
-	Weapon(string weaponType);
+	std::string getType(void)const;
+	void  setType(std::string newType);
+	Weapon(std::string weaponType);
 };
 # endif

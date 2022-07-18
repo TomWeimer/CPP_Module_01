@@ -1,4 +1,4 @@
-NAME		:=		 Harl
+NAME		:=		HI_THIS_IS_BRAIN
 
 
 CPP			:=		g++-11
@@ -6,7 +6,6 @@ CPP			:=		g++-11
 CPPFLAGS	:=		-Wall -Wextra -Werror -std=c++98
 
 SRC			:=		main.cpp\
-					Harl.cpp
 
 OBJ			:= 		$(SRC:.cpp=.o)
 

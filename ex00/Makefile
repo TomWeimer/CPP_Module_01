@@ -1,7 +1,7 @@
 NAME		:=		BraiiiiiiinnnzzzZ
 
 
-CPP			:=		c++
+CPP			:=		g++-11
 
 CPPFLAGS	:=		-Wall -Wextra -Werror -std=c++98
 

@@ -2,19 +2,18 @@
 # define HUMANB_H
 
 #include <iostream>
-using namespace std;
 #include "Weapon.hpp"
 
 class HumanB
 {
 	private:
-	string name_;
+	std::string name_;
 	Weapon *weapon_;
 
 	public:
 	void attack(void)const;
-	HumanB(string name, Weapon weapon);
-	HumanB(string name);
+	HumanB(std::string name, Weapon weapon);
+	HumanB(std::string name);
 	void setType(Weapon& weapon);
 };
 

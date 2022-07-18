@@ -2,28 +2,27 @@
 # define ZOMBIE_H
 
 #include <iostream>
-using namespace std;
 
 class Zombie
 {
 	private:
-	string name;
+	std::string name;
 	public:
 	
 	Zombie();
 
-	Zombie(string name);
+	Zombie(std::string name);
 
 	~Zombie();
 
-	void setName(string name);
+	void setName(std::string name);
 	
-	string getName(void) const;
+	std::string getName(void) const;
 	
 	void announce( void ) const;
 
 	
 };
 
-Zombie* zombieHorde( int N, string name );
+Zombie* zombieHorde( int N, std::string name );
 # endif

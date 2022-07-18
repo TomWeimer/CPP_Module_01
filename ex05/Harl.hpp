@@ -2,7 +2,6 @@
 # define HARL_H
 
 #include <iostream>
-using namespace std;
 
 class Harl
 {
@@ -12,7 +11,7 @@ class Harl
 	void warning( void );
 	void error( void );
 	public:
-	void complain(string level );
+	void complain(std::string level );
 };
 
 # endif

@@ -1,12 +1,11 @@
-NAME		:=		 Harl
+NAME		:=		Human_Got_Weapon
 
 
 CPP			:=		g++-11
 
 CPPFLAGS	:=		-Wall -Wextra -Werror -std=c++98
 
-SRC			:=		main.cpp\
-					Harl.cpp
+SRC			:=		main.cpp
 
 OBJ			:= 		$(SRC:.cpp=.o)
 
